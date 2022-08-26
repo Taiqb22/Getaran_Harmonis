@@ -1,0 +1,52 @@
+[
+	{
+		"id" : 1,
+		"soal" : "Sebuah bola bermassa 20 $g$ digantung pada sepotong pegas lalu bola ditarik kebawah dari kedudukan setimbang, kemudian dilepaskan. Ternyata terjadi getaran tunggal dengan frekuensi 32 $Hz$. Jika bola tersebut diganti dengan bola bermassa 80 $g$, berapakah frekuensi yang akan dihasilkan sekarang?",
+		"a" : "8 $Hz$",
+		"b" : "12 $Hz$",
+        "c" : "16 $Hz$",
+        "d" : "18 $Hz$",
+        "e" : "20 $Hz$",
+        "jawaban" : "C"
+	},
+    {
+		"id" : 2,
+		"soal" : "Sebuah bandul jam yang biasa digunakan di bumi dibawa salah satu planet yang gaya gravitasinya $\\frac{1}{4}$ dari gravitasi di bumi. Astronot mencatat periode di planet tujuan adalah 2 jam. Tentukan periode bandul jam tersebut saat di bumi adalah . . .",
+		"a" : "1 Jam",
+		"b" : "3 Jam",
+        "c" : "5 Jam",
+        "d" : "7 Jam",
+        "e" : "9 Jam",
+        "jawaban" : "A" 
+	},
+    {
+		"id" : 3,
+		"soal" : "Sebuah bandul bermassa $m$ $kg$ digantung pada seutas tali yang panjangnya $L$ $cm$ bergetar selaras dengan amplitudo $A$ $cm$ dan frekuensi 10 $Hz$. Pada saat simpangan bandul setengah amplitudonya, Tentukan perbandingan energi potensial dan energi kinetiknya?",
+		"a" : "$\\frac{2}{4}$",
+		"b" : "$\\frac{2}{3}$",
+        "c" : "$\\frac{1}{2}$",
+        "d" : "$\\frac{1}{1}$",
+        "e" : "$\\frac{1}{3}$",
+        "jawaban" : "B" 
+	},
+    {
+		"id" : 4,
+		"soal" : "Sebuah partikel bermassa $m =$ 0,2 $kg$ berada pada ujung pegas sehingga bergerak harmonis sederhana. Posisi partikel sebagai fungsi waktu diberikan oleh persamaan $x(t) =$ A $sin$ $(𝛚t)$ dengan $A =$ 0,25 $m$ dan $𝛚 =$ 0,1 $rad/s$. Tentukan energi total partikel tersebut?",
+		"a" : "3,25 x 10 $_{-3} Joule$",
+		"b" : "4,25 x 10 $_{-3} Joule$",
+        "c" : "5,25 x 10 $_{-3} Joule$",
+        "d" : "6,25 x 10 $_{-3} Joule$",
+        "e" : "7,25 x 10 $_{-3} Joule$",
+        "jawaban" : "B"
+	},
+    {
+		"id" : 5,
+		"soal" : "Sebuah partikel bermassa $m =$ 0,2 $kg$ berada pada ujung pegas sehingga bergerak harmonis sederhana. Posisi partikel sebagai fungsi waktu diberikan oleh persamaan $x(t) =$ A $sin$ $(𝛚t)$ dengan $A =$ 0,25 $m$ dan $𝛚 =$ 0,1 $rad/s$. Tentukan energi total partikel tersebut?",
+		"a" : "3,25 x 10 $_{-3} Joule$",
+		"b" : "4,25 x 10 $_{-3} Joule$",
+        "c" : "5,25 x 10 $_{-3} Joule$",
+        "d" : "6,25 x 10 $_{-3} Joule$",
+        "e" : "7,25 x 10 $_{-3} Joule$",
+        "jawaban" : "B"
+	}
+]
