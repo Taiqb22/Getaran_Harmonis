@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Halaman Materi | Getaran Harmonis</title>
+    <link href="../assets/css/style.css" rel="stylesheet" />
+    <link href="../assets/css/styles.css" rel="stylesheet" />
+    <link href="../assets/css/cstyle.css" rel="stylesheet" />
+    <script src="../assets/js/fa-all.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-primary">
+        <!-- Navbar Brand-->
+        <a class="navbar-brand ps-3" href="../index.html"><i class="fas fa-house"></i> Getaran Harmonis</a>
+
+
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl mt-1 ms-1 me-1" style="padding-left: 0rem; padding-right: 0rem;">
+                <div class="border border-3 border-primary isicontent" style="height: 630px; width: 100%;">
+                    <div class="bg-primary text-center text-white p-1">
+                        <h3 style="margin-bottom: 0rem;">EVALUASI</h3>
+                    </div>
+                    <div id="dataKuis1">
+                        <div class="row">
+                            <div class="col-lg m-3 bg-white isicontent">
+                                <div class="h5 font-weight-bold">
+                                    <div class="ms-3 mb-3 me-3">
+                                        <a style="cursor:default;">
+                                            <div class="text-truncate border border-3 border-primary bg-primary text-white petunjuk2 rounded p-2"
+                                                style="font-weight: normal;">
+                                                <i class="fa-solid fa-magnifying-glass"></i> Petunjuk
+                                                <!-- <span id="petunjuk">
+                                                    </span> -->
+                                            </div>
+                                        </a>
+                                        <div class="collapse show" id="collapseExample">
+                                            <div class="card card-body border-3 border-primary"
+                                                style="font-weight: normal;">
+                                                <ol>
+                                                    <li>
+                                                        Kuis ini terdiri dari 20 soal berupa pilihan ganda.
+                                                    </li>
+                                                    <li>
+                                                        Setiap soal memiliki bobot poin sebanyak 5 poin.
+                                                    </li>
+                                                    <li>
+                                                        Silahkan lengkapi data diri Anda pada form yang
+                                                        telah disediakan.
+                                                    </li>
+                                                    <li>
+                                                        Tekan "Mulai Kuis" jika Anda sudah melengkapi data
+                                                        diri.
+                                                    </li>
+                                                    <li>
+                                                        Tekan salah satu pilihan jawaban yang dianggap
+                                                        benar.
+                                                    </li>
+                                                    <li>
+                                                        Setelah semua pertanyaan selesai dijawab, tekan
+                                                        tombol "Selesai" dan laman hasil akan muncul.
+                                                    </li>
+                                                    <li>
+                                                        Masukkan Token "<span id="token"></span>"
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg m-3 bg-white isicontent">
+                                <div class="h5 font-weight-bold">
+                                    <div class="soal " style="font-weight: normal;">
+                                        <div class="text-truncate border border-3 border-primary bg-primary text-white petunjuk rounded p-2"
+                                            style="font-weight: normal;">
+                                            Data Diri
+                                        </div>
+                                        <div class="">
+                                            <center>
+                                                <div class="data p-3 border border-3 border-primary">
+                                                    <div class="form">
+                                                        <table style="table-layout: fixed;">
+                                                            <tr>
+                                                                <td>Nama</td>
+                                                                <td>:</td>
+                                                                <td><input type="text" id="nama" name="nama"
+                                                                        style="width: 100%;"
+                                                                        placeholder="Masukkan Nama Anda">
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="3"><span id="errNama">
+
+                                                                    </span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Kelas</td>
+                                                                <td>:</td>
+                                                                <td><select name="kelas" id="kelas"
+                                                                        style="width: 100%;">
+                                                                        <option value="">Silahkan Pilih
+                                                                            Kelas Anda</option>
+                                                                        <option value="XI MIPA 1">XI MIPA 1
+                                                                        </option>
+                                                                        <option value="XI MIPA 2">XI MIPA 2
+                                                                        </option>
+                                                                        <option value="XI MIPA 3">XI MIPA 3
+                                                                        </option>
+                                                                        <option value="XI MIPA 4">XI MIPA 4
+                                                                        </option>
+                                                                        <option value="XI IPS 1">XI IPS 1
+                                                                        </option>
+                                                                        <option value="XI IPS 2">XI IPS 2
+                                                                        </option>
+                                                                        <option value="XI IPS 3">XI IPS 3
+                                                                        </option>
+                                                                        <option value="XI IPS 4">XI IPS 4
+                                                                        </option>
+                                                                    </select></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="3"><span id="errKelas">
+
+                                                                    </span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Sekolah</td>
+                                                                <td>:</td>
+                                                                <td><select name="sekolah" id="sekolah"
+                                                                        style="width: 100%;">
+                                                                        <option value="">Silahkan Pilih
+                                                                            Sekolah Anda</option>
+                                                                        <option value="SMAN 8 Banjarmasin">
+                                                                            SMAN 8 Banjarmasin</option>
+                                                                    </select></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="3"><span id="errSekolah">
+
+                                                                    </span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Token</td>
+                                                                <td>:</td>
+                                                                <td><input type="text" id="tokennew" name="tokennew"
+                                                                        style="width: 100%;"
+                                                                        placeholder="Masukkan Nama Anda">
+                                                                </td>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="3"><span id="errToken">
+
+                                                                    </span></td>
+                                                            </tr>
+                                                        </table>
+                                                        <a type="button" class="btn btn-outline-primary m-2"
+                                                            data-toggle="modal" data-target="#ModalKembali">Kembali
+                                                            ke
+                                                            Materi</a>
+                                                        <a id="mulai1" class="btn btn-primary" onclick="mulai1();"
+                                                            style="cursor: pointer;">Mulai Kuis</a>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="kuis1" hidden>
+                        <div class="row">
+                            <div class="col-lg" style="height: 525px; width: 100%;">
+                                <div class="bg-secondary p-2 navbar navbar-expand">
+                                    <div class="text-truncate" style="font-weight: normal;">Pertanyaan <span
+                                            id="indeks"></span> dari 20</div>
+                                    <div class="ms-auto me-0 me-md-3 my-2 my-md-0">
+                                        <span class="border border-3 border-primary rounded-pill p-1 me-2">
+                                            Sisa Waktu : <span id="waktu"></span>
+                                        </span>
+                                        <button class="btn btn-primary rounded-pill" type="button"
+                                            data-bs-toggle="offcanvas" data-bs-target="#daftarSoal"
+                                            aria-controls="daftarSoal">Daftar Soal <i
+                                                class="fa-solid fa-bars"></i></button>
+                                    </div>
+                                </div>
+                                <div class="soal" style="font-weight: normal;">
+                                    <div class="m-3">
+                                        <div class="list-soal">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg ms-1 me-1" style="padding-left: 0rem; padding-right: 0rem;">
+                                <div class="border border-3 border-bottom-0 border-primary">
+                                    <div class="p-2">
+                                        <a id="soalPrev" class="btn btn-primary" onclick="" style="cursor: pointer;"
+                                            hidden>Sebelumnya</a>
+                                        <a id="soalNext" class="btn btn-primary" onclick="soal2();"
+                                            style="cursor: pointer;">Selanjutnya</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="hasilKuis1" hidden>
+                        <div class="row">
+                            <div class="col-lg m-3 bg-white isicontent">
+                                <div class="h5 font-weight-bold">
+                                    <div class="h3 text-center" style="font-weight: normal;">Hasil Evaluasi
+                                    </div>
+                                    <hr style="border-top: 3px dashed blue;">
+                                    <div id="hasilL" class="hasil" style="font-weight: normal;" hidden>
+                                        <center>
+                                            <div class="m-5" style="width: 75%; border: 2px solid rgb(86, 86, 255);">
+                                                <table>
+                                                    <tr>
+                                                        <td style="width: 40%;">Nama Lengkap</td>
+                                                        <td class="text-center" style="width: 20%;"> : </td>
+                                                        <td style="width: 40%;"><span id="namaHL"></span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Kelas</td>
+                                                        <td class="text-center"> : </td>
+                                                        <td><span id="kelasHL"></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Sekolah</td>
+                                                        <td class="text-center"> : </td>
+                                                        <td><span id="sekolahHL"></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Nilai</td>
+                                                        <td class="text-center"> : </td>
+                                                        <td><span id="nilaiHL"></span></td>
+                                                    </tr>
+                                                </table>
+                                                <a id="Back1" class="btn btn-primary m-3" href="pengantar2.html"
+                                                    style="cursor: pointer;">Kembali
+                                                    ke Materi</a>
+                                                <div class="alert alert-success" role="alert">
+                                                    Selamat! Nilai dari hasil kuis anda di atas KKM, anda
+                                                    berhasil menyelesaikan materi Getaran Harmonis
+                                                </div>
+                                            </div>
+                                        </center>
+                                    </div>
+                                    <div id="hasilTL" class="hasil" style="font-weight: normal;" hidden>
+                                        <center>
+                                            <div class="m-5" style="width: 75%; border: 2px solid rgb(86, 86, 255);">
+                                                <table>
+                                                    <tr>
+                                                        <td style="width: 40%;">Nama Lengkap</td>
+                                                        <td class="text-center" style="width: 20%;"> : </td>
+                                                        <td style="width: 40%;"><span id="namaHTL"></span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Kelas</td>
+                                                        <td class="text-center"> : </td>
+                                                        <td><span id="kelasHTL"></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Sekolah</td>
+                                                        <td class="text-center"> : </td>
+                                                        <td><span id="sekolahHTL"></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Nilai</td>
+                                                        <td class="text-center"> : </td>
+                                                        <td><span id="nilaiHTL"></span></td>
+                                                    </tr>
+                                                </table>
+                                                <a id="Back1" class="btn btn-primary m-3" href="pengantar2.html"
+                                                    style="cursor: pointer;">Kembali
+                                                    ke Materi</a>
+                                                <div class="alert alert-danger" role="alert">
+                                                    Nilai dari hasil evaluasi anda di bawah KKM, silahkan tekan
+                                                    "Kembali ke Materi" untuk mengulang materi kembali.
+                                                </div>
+                                            </div>
+                                        </center>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" style="height: 50%; margin-top: 12%;" tabindex="-1" id="daftarSoal"
+        aria-labelledby="daftarSoalLabel">
+        <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title" id="daftarSoalLabel">Daftar Soal</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="dftrSoal">
+                <button type="button" id="soal1" onclick="soal1();"
+                    class="card-body-4 btn btn-outline-primary mb-2 btnkuis">1</button>
+                <button type="button" id="soal2" onclick="soal2();"
+                    class="card-body-4 btn btn-outline-primary mb-2 btnkuis">2</button>
+                <button type="button" id="soal3" onclick="soal3();"
+                    class="card-body-4 btn btn-outline-primary mb-2 btnkuis">3</button>
+                <button type="button" id="soal4" onclick="soal4();"
+                    class="card-body-4 btn btn-outline-primary mb-2 btnkuis">4</button>
+                <button type="button" id="soal5" onclick="soal5();"
+                    class="card-body-4 btn btn-outline-primary mb-2 btnkuis">5</button>
+                <button type="button" id="soal6" onclick="soal6();"
+                    class="card-body-4 btn btn-outline-primary mb-2 btnkuis">6</button>
+                <button type="button" id="soal7" onclick="soal7();"
+                    class="card-body-4 btn btn-outline-primary mb-2 btnkuis">7</button>
+                <button type="button" id="soal8" onclick="soal8();"
+                    class="card-body-4 btn btn-outline-primary mb-2 btnkuis">8</button>
+                <button type="button" id="soal9" onclick="soal9();"
+                    class="card-body-4 btn btn-outline-primary mb-2 btnkuis">9</button>
+                <button type="button" id="soal10" onclick="soal10();"
+                    class="card-body-4 btn btn-outline-primary mb-2 btnkuis">10</button>
+                <button type="button" id="soal11" onclick="soal11();"
+                    class="card-body-4 btn btn-outline-primary mb-2 btnkuis">11</button>
+                <button type="button" id="soal12" onclick="soal12();"
+                    class="card-body-4 btn btn-outline-primary mb-2 btnkuis">12</button>
+                <button type="button" id="soal13" onclick="soal13();"
+                    class="card-body-4 btn btn-outline-primary mb-2 btnkuis">13</button>
+                <button type="button" id="soal14" onclick="soal14();"
+                    class="card-body-4 btn btn-outline-primary mb-2 btnkuis">14</button>
+                <button type="button" id="soal15" onclick="soal15();"
+                    class="card-body-4 btn btn-outline-primary mb-2 btnkuis">15</button>
+                <button type="button" id="soal16" onclick="soal16();"
+                    class="card-body-4 btn btn-outline-primary mb-2 btnkuis">16</button>
+                <button type="button" id="soal17" onclick="soal17();"
+                    class="card-body-4 btn btn-outline-primary mb-2 btnkuis">17</button>
+                <button type="button" id="soal18" onclick="soal18();"
+                    class="card-body-4 btn btn-outline-primary mb-2 btnkuis">18</button>
+                <button type="button" id="soal19" onclick="soal19();"
+                    class="card-body-4 btn btn-outline-primary mb-2 btnkuis">19</button>
+                <button type="button" id="soal20" onclick="soal20();"
+                    class="card-body-4 btn btn-outline-primary mb-2 btnkuis">20</button>
+            </div>
+            <center>
+                <a id="submit1" class="btn btn-primary" style="cursor: pointer; margin-bottom: -10px; margin-top: -5px;"
+                    data-bs-toggle="modal" data-bs-target="#ModalSubmit1">Selesai</a>
+            </center>
+            <div class="h6" style="margin-top: -2px;">
+                <h5>Keterangan: </h5>
+                <span class="btn btn-outline-primary text-center text-dark mb-1 disabled"
+                    style="width: 20%; cursor: text;">Putih</span> = Belum dijawab <br>
+                <a class="btn btn-primary text-center active" style="width: 20%; cursor: text;">Hijau</a> = Sudah
+                dijawab <br>
+                Setelah menjawab semua pertanyaan, silahkan tekan tombol "Selesai"
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Submit5 -->
+    <div class="modal fade" id="ModalSubmit1" tabindex="-1" role="dialog" aria-labelledby="ModalSubmit1Title"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-success text-white">
+                    <h5 class="modal-title text-center" id="ModalSubmit1Title">Konfirmasi</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Apakah anda yakin ingin menyelesaikan Kuis?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">kembali</button>
+                    <button type="button" onclick="cekKuis1()" data-bs-dismiss="offcanvas" data-bs-target="#daftarSoal"
+                        class="btn btn-primary">Yakin</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Kuis Kosong -->
+    <div class="modal fade" id="ModalKuisKosong" tabindex="-1" role="dialog" aria-labelledby="ModalKuisKosongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-danger text-white">
+                    <h5 class="modal-title text-center" id="ModalSubmit2Title">Peringatan</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Jawaban masih ada yang kosong!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">kembali</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script JS -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.easing.min.js"></script>
+    <script src="../assets/js/Chart.min.js" crossorigin="anonymous"></script>
+    <script src="../assets/demo/chart-area-demo.js"></script>
+    <script src="../assets/demo/chart-bar-demo.js"></script>
+    <script src="../assets/js/simple-datatables.js" crossorigin="anonymous"></script>
+    <script src="../assets/js/datatables-simple-demo.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+    <!-- DB JS -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+
+    <!-- Create JS -->
+    <script src="../assets/js/scripts.js"></script>
+    <script src="../assets/js/db.js"></script>
+    <script src="../assets/js/cscript.js"></script>
+    <script src="../assets/js/evaluasi.js"></script>
+    <script src="../assets/js/simpanevaluasi.js"></script>
+</body>
+
+</html>

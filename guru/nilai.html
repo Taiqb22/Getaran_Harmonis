@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Halaman Nilai | Getaran Harmonis</title>
+    <link href="../assets/css/styles.css" rel="stylesheet" />
+    <link href="../assets/css/cstyle.css" rel="stylesheet" />
+    <script src="../assets/js/fa-all.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Page Heading -->
+                <nav class="navbar navbar-light bg-light justify-content-between">
+                    <h1 class="h3 ms-3 text-gray-800">Halaman Nilai</h1>
+                    <form class="form-inline">
+                        <a href="home.html" class="me-sm-3 text-primary"><i
+                                class="fa-solid fa-circle-left fa-3x"></i></a>
+                    </form>
+                </nav>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Content Row -->
+                    <div class="row" style="height: 500px; width: 100%;">
+                        <div class="mb-1 col-sm bg-white border border-primary isicontent3">
+                            <div class="h5 font-weight-bold">
+                                <div class="card-body">
+                                    <center>
+                                        <div class="card-title-md">
+                                            <label for="sekolah">Sekolah :
+                                                <select id="sekolah" name="sekolah" class="mundur"
+                                                    aria-placeholder="-PILIH SEKOLAH-">
+                                                    <option value="0" selected="selected">-- PILIH KELAS --</option>
+                                                    <option value="1">SMAN 8 Banjarmasin</option>
+                                                </select>
+                                            </label>
+
+                                            <label for="kelas">Kelas :
+                                                <select id="kelas" name="kelas" class="mundur"
+                                                    aria-placeholder="-PILIH KELAS-">
+                                                    <option value="0" selected="selected">-- PILIH KELAS --</option>
+                                                    <option value="1">XI MIPA 1</option>
+                                                    <option value="2">XI MIPA 2</option>
+                                                    <option value="3">XI MIPA 3</option>
+                                                    <option value="4">XI MIPA 4</option>
+                                                    <option value="5">XI IPS 1</option>
+                                                    <option value="6">XI IPS 2</option>
+                                                    <option value="7">XI IPS 3</option>
+                                                    <option value="8">XI IPS 4</option>
+                                                </select>
+                                            </label>
+
+                                            <label for="hasil">Hasil :
+                                                <select id="kuis" name="kuis" class="mundur">
+                                                    <option value="db_kuis1/" selected="selected">KUIS 1</option>
+                                                    <option value="db_kuis2/">KUIS 2</option>
+                                                    <option value="db_evaluasi/">EVALUASI</option>
+                                                </select>
+                                            </label>
+
+
+                                            <button type="button" class="cari btn btn-primary" onclick="mencari()"><i
+                                                    class="fas fa-search"></i>&nbsp;&nbsp;Cari</button>
+                                            <button type="button" class="cari btn btn-primary download"
+                                                onclick="downloadfile()"><i
+                                                    class="fas fa-download"></i>&nbsp;&nbsp;Download</button>
+                                        </div>
+                                    </center>
+                                    <br>
+                                    <table id='table_wrapper' class="table">
+                                        <thead class="table-light">
+                                            <tr>
+                                                <th class="ukr1">Nama</td>
+                                                <th class="ukr3">Kelas</td>
+                                                <th class="ukr1">Sekolah</td>
+                                                <th class="ukr3">Skor</td>
+                                                <th class="ukr2">Hari</td>
+                                                <th class="ukr2">Waktu</td>
+                                                <th class="ukr4">Hapus</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="disini"></tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <!-- <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; QE 2021</span>
+                    </div>
+                </div>
+            </footer> -->
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Modal Download -->
+    <div class="modal fade" id="ModalDownload" tabindex="-1" role="dialog" aria-labelledby="ModalDownloadTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body bg-danger text-white">
+                    Data masih kosong! Silahkan klik tombol Cari
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">kembali</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Filter -->
+    <div class="modal fade" id="ModalFilter" tabindex="-1" role="dialog" aria-labelledby="ModalFilterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body bg-danger text-white">
+                    Tentukan filter pencarian!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">kembali</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Hapus -->
+    <div class="modal fade" id="ModalHapus" tabindex="-1" role="dialog" aria-labelledby="ModalHapusTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-success text-white">
+                    <h5 class="modal-title text-center" id="ModalHapusTitle">Konfirmasi</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Apakah anda yakin ingin menghapus data?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Tidak</button>
+                    <button type="button" onclick="" class="btn btn-primary yakin">Yakin</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Hapus Semua-->
+    <div class="modal fade" id="ModalHapusAll" tabindex="-1" role="dialog" aria-labelledby="ModalHapusAllTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-success text-white">
+                    <h5 class="modal-title text-center" id="ModalHapusAllTitle">Konfirmasi</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Apakah anda yakin ingin menghapus semua data?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Tidak</button>
+                    <button type="button" onclick="" class="btn btn-primary yakinAll">Yakin</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Script JS -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.easing.min.js"></script>
+    <script src="../assets/js/Chart.min.js" crossorigin="anonymous"></script>
+    <script src="../assets/demo/chart-area-demo.js"></script>
+    <script src="../assets/demo/chart-bar-demo.js"></script>
+    <script src="../assets/js/simple-datatables.js" crossorigin="anonymous"></script>
+    <script src="../assets/js/datatables-simple-demo.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+    <!-- DB JS -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+
+    <!-- Create JS -->
+    <script src="../assets/js/scripts.js"></script>
+    <script src="../assets/js/db.js"></script>
+    <script src="../assets/js/cscript.js"></script>
+
+    <script src="nilai.js"></script>
+
+</body>
+
+</html>

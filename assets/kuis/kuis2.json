@@ -1,0 +1,102 @@
+[
+	{
+		"id" : 1,
+		"soal" : "Seorang ilmuwan Inggris telah meneliti materi tentang gaya pegas. Ia mengungkapkan, bahwa jika sebuah pegas bekerja dengan sebuah gaya luar, maka pegas tersebut akan bertambah panjang berbanding besaran gaya yang diberikan, siapa kah nama ilmuan tersebut ?",
+		"a" : "Robert Hooke",
+		"b" : "Albert eisten",
+        "c" : "Nicolas tesla",
+        "d" : "Cristoper Columbus",
+        "e" : "lil amstrong",
+        "jawaban" : "A"
+	},
+    {
+		"id" : 2,
+		"soal" : "Rumus hukum hooke adalah . . .",
+		"a" : "$F = k . M$",
+		"b" : "$F = k . N$",
+        "c" : "$F = k . G$",
+        "d" : "$F  = k$ . $\\Delta x$",
+        "e" : "$F = k. T$",
+        "jawaban" : "D" 
+	},
+    {
+		"id" : 3,
+		"soal" : "Pegas sedang dalam kondisi diam tanpa ada gaya dari luar di namakan posisi ?",
+		"a" : "Posisi Diam",
+		"b" : "Posisi semu",
+        "c" : "Posisi Relatif",
+        "d" : "Posisi Setimpang",
+        "e" : "Posisi Lurus",
+        "jawaban" : "D" 
+	},
+    {
+		"id" : 4,
+		"soal" : "Simpangan GHS maksimum terjadi ketika pada saat sudut fase $\\Theta$?",
+		"a" : "90 derajat",
+		"b" : "80 derajat",
+        "c" : "70 derajat",
+        "d" : "60 derajat",
+        "e" : "50 derajat",
+        "jawaban" : "A"
+	},
+    {
+		"id" : 5,
+		"soal" : "Kecepatan GHS merupakan turunan pertama dari . . .",
+		"a" : "Periode",
+		"b" : "Masa beda",
+        "c" : "Volume",
+        "d" : "Frekuensi",
+        "e" : "Simpangan",
+        "jawaban" : "E"
+	},
+    {
+		"id" : 6,
+		"soal" : "Percepatan GHS merupakan turunan pertama dari . . .",
+		"a" : "Kecepatan",
+		"b" : "Simpangan",
+        "c" : "Volume",
+        "d" : "Frekuensi",
+        "e" : "Periode",
+        "jawaban" : "A"
+	},
+    {
+		"id" : 7,
+		"soal" : "Syarat agar terjadinya gerak harmonik pada bandul adalah . . .",
+		"a" : "Simpangan awal yang di berikan  boleh  terlalu besar",
+		"b" : "Simpangan awal yang di berikan  tidak boleh  terlalu besar",
+        "c" : "Simpangan awal yang di berikan  harus mengunakan  gravitasi besar",
+        "d" : "Simpangan awal yang di berikan  harus mengunakan  ampiltudo yang tidak teralu besar",
+        "e" : "Simpangan awal yang di berikan  harus mengunakan frekuensi yang tidak terlalu besar",
+        "jawaban" : "B"
+	},
+    {
+		"id" : 8,
+		"soal" : "Pada gerak harmonik terdapat dua besaran yang selalu berubah-ubah yaitu . . .",
+		"a" : "Kecepatan dan amplitudo",
+		"b" : "Posisi dan volume",
+        "c" : "Periode dan frekuensi",
+        "d" : "Kecepatan dan posisi",
+        "e" : "Posisi dan konstansta",
+        "jawaban" : "D"
+	},
+    {
+		"id" : 9,
+		"soal" : "Pada energi mekanik pada simpangan terjauh bernilai sama dengan . . .",
+		"a" : "Energi kalor",
+		"b" : "Energi kinetik",
+        "c" : "Energi kimia",
+        "d" : "Energi listrik",
+        "e" : "Energi potensial",
+        "jawaban" : "E"
+	},
+    {
+		"id" : 10,
+		"soal" : "Ketika Witan yang bermasa 60 kg bergantung pada ujung sebuah pegas,maka pegas bertambah Panjang menjadi 15 cm,Tentukan konstanta pegas tersebut . . .",
+		"a" : "1000",
+		"b" : "2000",
+        "c" : "3000",
+        "d" : "4000",
+        "e" : "5000",
+        "jawaban" : "D"
+	}
+]

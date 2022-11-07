@@ -1,0 +1,202 @@
+[
+	{
+		"id": 1,
+		"soal": "Getaran harmonis sederhana adalah . . .",
+		"a": "Gerak suatu benda dengan gerakan yang tidak teratur",
+		"b": "Gerak bolak-balik benda melalui titik kesetimbangan",
+		"c": "Gerak suatu benda karena diberi simpangan",
+		"d": "Gerak suatu benda dengan gerakan yang tidak teratur dan melewati titik keseimbangan",
+		"e": "Gerak suatu benda dengan gerakan yang teratur",
+		"jawaban": "B"
+	},
+	{
+		"id": 2,
+		"soal": "Gerak periodik adalah kata lain dari gerak . . .",
+		"a": "Parabola",
+		"b": "Semu",
+		"c": "Harmonis",
+		"d": "Melingkar",
+		"e": "Relative",
+		"jawaban": "C"
+	},
+	{
+		"id": 3,
+		"soal": "Waktu yang diperlukan suatu benda untuk melakukan satu kali getaran,disebut?",
+		"a": "Frekuensi",
+		"b": "Periode",
+		"c": "Simpangan",
+		"d": "Amplitudo",
+		"e": "Kecepatan",
+		"jawaban": "C"
+	},
+	{
+		"id": 4,
+		"soal": "Waktu yang diperlukan suatu benda untuk melakukan satu getaran/putaran penuh disebut . . .",
+		"a": "Frekuensi",
+		"b": "Periode",
+		"c": "Simpangan",
+		"d": "Amplitudo",
+		"e": "Kecepatan",
+		"jawaban": "A"
+	},
+	{
+		"id": 5,
+		"soal": "Gaya yang menyebabkan benda begerak harmonis adalah . . .",
+		"a": "Gaya gesek",
+		"b": "Gaya berat",
+		"c": "Gaya sentrimental",
+		"d": "Gaya Pemulih",
+		"e": "Gaya Gravitasi",
+		"jawaban": "D"
+	},
+	{
+		"id": 6,
+		"soal": "Sebuah benda yang diikat dengan seutas benang  hanya dapat berayun dengan simpangan kecil. Supaya periode ayunannnya bertambah besar, maka: <br>(1) Ayunannya diberi simpangan awal yang besar <br>(2) Massa bendanya ditambah <br>(3) Ayunan diberi kecepatan awal <br>(4) Benang penggantungannya diperpanjang <br>Pernyataan di atas yang benar adalah . . .",
+		"a": "(1), (2), dan (3)",
+		"b": "(1) dan (3)",
+		"c": "(2) dan (4)",
+		"d": "(4)",
+		"e": "(1), (2), (3), dan (4)",
+		"jawaban": "D"
+	},
+	{
+		"id": 7,
+		"soal": "Berikut Faktor-Faktor yang mempengaruhi besar frekuensi pada getaran harmonis sederhana pada bandul : <br>(1)Panjang Tali <br>(2)Massa Benda <br>(3)Konstanta Pegas <br>(4)Percepatan Gravitasi <br>Pernyataan diatas adalah . . .",
+		"a": "(1), (2) dan (3)",
+		"b": "(1) dan (3)",
+		"c": "(1) dan (4)",
+		"d": "(2) dan (3)",
+		"e": "(1), (2), (3) dan (4)",
+		"jawaban": "C"
+	},
+	{
+		"id": 8,
+		"soal": "Perhatikan grafik hubungan periode kuadrat ($T^2$) dengan panjang tali (m) <br><img src='../assets/img/gambarev1.png' class='figure-img img-fluid rounded'> <br>Berdasarkan grafik di atas, pengaruh panjang tali terhadap periode adalah . . .",
+		"a": "Semakin besar panjang tali maka periodenya semakin besar",
+		"b": "Semakin besar panjang tali maka periodenya semakin kecil",
+		"c": "Jika panjang tali dijadikan 2 kali lebih besar, maka periodenya menjadi $\\frac{1}{2}$ kali dari semula",
+		"d": "Jika panjang tali dijadikan 2 kali lebih besar, maka periodenya menjadi $\\frac{1}{4}$ kali dari semula",
+		"e": "Jika panjang tali dijadikan 2 kali lebih besar, maka periodenya tetap",
+		"jawaban": "A"
+	},
+	{
+		"id": 9,
+		"soal": "Perhatikan gambar di bawah. <br><img src='../assets/img/gambarev2.png' class='figure-img img-fluid rounded'> <br>Andi bermain ayunan dengan tali penggantung sepanjang 2,5 m. Apabila percepatan gravitasi bumi $10 m/s^2$, periode ayunan tersebut adalah . . .",
+		"a": "$\\frac{\\pi }{3}s$",
+		"b": "$\\frac{\\pi }{2}s$",
+		"c": "$\\pi s$",
+		"d": "$2 \\pi s$",
+		"e": "$3 \\pi s$",
+		"jawaban": "D"
+	},
+	{
+		"id": 10,
+		"soal": "Perhatikan gambar di bawah. <br><img src='../assets/img/gambarev3.jpg' class='figure-img img-fluid rounded'> <br>Bandul bermassa 300 gram digantungkan pada tali sepanjang 30 cm.bandul disimpangkan sejauh 6 cm dari titik seimbangnya, kemudian dilepaskan. Apabila percepatan gravitasi bumi $10 m/s^2$, gaya pemulih yang bekerja pada bandul adalah . . .",
+		"a": "0,5 N",
+		"b": "0,6 N",
+		"c": "0,7 N",
+		"d": "0,8 N",
+		"e": "0,9 N",
+		"jawaban": "C"
+	},
+	{
+		"id": 11,
+		"soal": "Benda A dan benda B mempunyai massa yang sama, jika panjang tali benda A 4 kali panjang tali benda B. <br><img src='../assets/img/gambarev4.png' class='figure-img img-fluid rounded'> <br>Perbedaan periode benda A dan B adalah . . .",
+		"a": "Periode benda A 2 kali periode benda B",
+		"b": "Periode benda A 4 kali periode benda B",
+		"c": "Periode benda A 1/2 kali periode benda B",
+		"d": "Periode benda A 1/4 kali periode benda B",
+		"e": "Periode benda A sama dengan periode benda B",
+		"jawaban": "C"
+	},
+	{
+		"id": 12,
+		"soal": "Perhatikan gambar di bawah. <br><img src='../assets/img/gambarev5.jpg' class='figure-img img-fluid rounded'> <br>Sebuah benda bermassa 5g digantungkan diujung sebuah tali yang panjangnya 1 m. Jika panjang tali diubah menjadi 4 m. Perbandingan frekuensi getar benda sebelum dan sesudah panjang tali diubah adalah . . .",
+		"a": "1 : 2",
+		"b": "2 : 1",
+		"c": "3 : 1",
+		"d": "1 : 3",
+		"e": "2 : 3",
+		"jawaban": "B"
+	},
+	{
+		"id": 13,
+		"soal": "Frekuensi sebuah pegas yang bergerak harmonik sederhana dapat diperbesar dengan cara . . .",
+		"a": "Memperkecil konstanta pegas",
+		"b": "Memperbesar massa beban",
+		"c": "Memperkecil massa beban dan  memperbesar konstanta pegas",
+		"d": "Memperbesar massa beban dan memperkecil konstanta pegas",
+		"e": "Massa beban dan konstanta pegas tetap",
+		"jawaban": "B"
+	},
+	{
+		"id": 14,
+		"soal": "Sebuah pegas yang panjangnya 20 cm digantungkan vertikal dan diberi beban 200 gram sehingga panjangnya bertambah 10 cm. Jika $g = 10 m/s^2$.Periode getaran pegasnya adalah . . .",
+		"a": "$0,2 \\pi s$",
+		"b": "$0,4 \\pi s$",
+		"c": "$0,5 \\pi s$",
+		"d": "$1,0 \\pi s$",
+		"e": "$2,0 \\pi s$",
+		"jawaban": "A"
+	},
+	{
+		"id": 15,
+		"soal": "Sebuah benda digantung pada salah satu ujung pegas sehingga pegas bertambah panjang 0,05 m. Jika konstanta pegas tersebut 300 N/m, maka besarnya gaya emulih pegas tersebut adalah . . .",
+		"a": "10 N",
+		"b": "12 N",
+		"c": "15 N",
+		"d": "16 N",
+		"e": "20 N",
+		"jawaban": "C"
+	},
+	{
+		"id": 16,
+		"soal": "Simpangan pada getaran harmonis sederhana didefinisikan sebagai . . .",
+		"a": "Waktu yang diperlukan untuk melakukan putaran setengah lingkaran",
+		"b": "Banyaknya getaran yang dijasilkan dalam waktu tertentu",
+		"c": "Simpangan terjauh yang ditempuh suatu benda",
+		"d": "Simpangan terdekat yang ditempuh suatu benda",
+		"e": "Besarnya perpindahan dari suatu titik kesetimbangan ke suatu titik tertentu",
+		"jawaban": "E"
+	},
+	{
+		"id": 17,
+		"soal": "Simpangan terjauh yang ditempuh oleh bandul yang bergerak harmonik disebut . . .",
+		"a": "Amplitudo",
+		"b": "Frekuensi",
+		"c": "Periode",
+		"d": "Simpangan",
+		"e": "Percepatan",
+		"jawaban": "A"
+	},
+	{
+		"id": 18,
+		"soal": "Persamaan getaran harmonik sederhana sebuah benda adalah $y = 0,1 sin 20 \\pi t$, y dalam meter dan t dalam sekon. Frekuensi benda tersebut adalah . . .",
+		"a": "0,5 Hz",
+		"b": "1 Hz",
+		"c": "2 Hz",
+		"d": "5 Hz",
+		"e": "10 Hz",
+		"jawaban": "B"
+	},
+	{
+		"id": 19,
+		"soal": "Sebuah ayunan melakukan gerak harmonis sederhana digambarkan oleh grafik simpangan terhadap waktu (y-t) berikut. <br><img src='../assets/img/gambarev6.png' class='figure-img img-fluid rounded'> <br>Berdasarkan grafik di atas, persamaan simpangan yang benar adalah . . .",
+		"a": "$y = 50 sin t$",
+		"b": "$y = 50 cos t$",
+		"c": "$y = 100 sin t$",
+		"d": "$y = 100 cos t$",
+		"e": "$y = 100 sin 2 \\pi t$",
+		"jawaban": "A"
+	},
+	{
+		"id": 20,
+		"soal": "Sebuah bandul bergetar harmonik dengan persamaan y = 4 sin 6 t, Dimana y dalam meter dan t dalam sekon. Percepatan maksimum getaran tersebut adalah  . . .",
+		"a": "24 ms-2",
+		"b": "36 ms-2",
+		"c": "72 ms-2",
+		"d": "96 ms-2",
+		"e": "144 ms-2",
+		"jawaban": "E"
+	}
+]

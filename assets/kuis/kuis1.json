@@ -1,52 +1,102 @@
 [
 	{
 		"id" : 1,
-		"soal" : "Sebuah bola bermassa 20 $g$ digantung pada sepotong pegas lalu bola ditarik kebawah dari kedudukan setimbang, kemudian dilepaskan. Ternyata terjadi getaran tunggal dengan frekuensi 32 $Hz$. Jika bola tersebut diganti dengan bola bermassa 80 $g$, berapakah frekuensi yang akan dihasilkan sekarang?",
-		"a" : "8 $Hz$",
-		"b" : "12 $Hz$",
-        "c" : "16 $Hz$",
-        "d" : "18 $Hz$",
-        "e" : "20 $Hz$",
-        "jawaban" : "C"
-	},
-    {
-		"id" : 2,
-		"soal" : "Sebuah bandul jam yang biasa digunakan di bumi dibawa salah satu planet yang gaya gravitasinya $\\frac{1}{4}$ dari gravitasi di bumi. Astronot mencatat periode di planet tujuan adalah 2 jam. Tentukan periode bandul jam tersebut saat di bumi adalah . . .",
-		"a" : "1 Jam",
-		"b" : "3 Jam",
-        "c" : "5 Jam",
-        "d" : "7 Jam",
-        "e" : "9 Jam",
-        "jawaban" : "A" 
-	},
-    {
-		"id" : 3,
-		"soal" : "Sebuah bandul bermassa $m$ $kg$ digantung pada seutas tali yang panjangnya $L$ $cm$ bergetar selaras dengan amplitudo $A$ $cm$ dan frekuensi 10 $Hz$. Pada saat simpangan bandul setengah amplitudonya, Tentukan perbandingan energi potensial dan energi kinetiknya?",
-		"a" : "$\\frac{2}{4}$",
-		"b" : "$\\frac{2}{3}$",
-        "c" : "$\\frac{1}{2}$",
-        "d" : "$\\frac{1}{1}$",
-        "e" : "$\\frac{1}{3}$",
-        "jawaban" : "B" 
-	},
-    {
-		"id" : 4,
-		"soal" : "Sebuah partikel bermassa $m =$ 0,2 $kg$ berada pada ujung pegas sehingga bergerak harmonis sederhana. Posisi partikel sebagai fungsi waktu diberikan oleh persamaan $x(t) =$ A $sin$ $(𝛚t)$ dengan $A =$ 0,25 $m$ dan $𝛚 =$ 0,1 $rad/s$. Tentukan energi total partikel tersebut?",
-		"a" : "3,25 x 10 $_{-3} Joule$",
-		"b" : "4,25 x 10 $_{-3} Joule$",
-        "c" : "5,25 x 10 $_{-3} Joule$",
-        "d" : "6,25 x 10 $_{-3} Joule$",
-        "e" : "7,25 x 10 $_{-3} Joule$",
+		"soal" : "Pengertian getaran harmonis adalah . . .",
+		"a" : "Gertaran  harmonis adalah gerak bolak-balik benda melalui suatu titik keseimbangan tertentu dengan amplitudo dan frekuensi yang berubah",
+		"b" : "Gertaran  harmonis adalah gerak bolak-balik benda melalui suatu titik keseimbangan tertentu dengan amplitudo dan frekuensi tetap",
+        "c" : "Gertaran  harmonis adalah gerak bolak-balik benda melalui suatu titik keseimbangan tertentu dengan amplitudo dan frekuensi tidak tetap",
+        "d" : "Gertaran  harmonis adalah gerak semu benda melalui suatu titik keseimbangan tertentu dengan amplitudo dan frekuensi tetap",
+        "e" : "Gertaran  harmonis adalah gerak relatif benda melalui suatu titik keseimbangan tertentu dengan amplitudo dan frekuensi tetap",
         "jawaban" : "B"
 	},
     {
+		"id" : 2,
+		"soal" : "Gerak bolak-balik yang terjadi secara periodik (berulang) dinamakan . . .",
+		"a" : "gerak relatif",
+		"b" : "gerak parabola",
+        "c" : "gerak osilasi",
+        "d" : "gerak semu",
+        "e" : "gerak melingkar",
+        "jawaban" : "C" 
+	},
+    {
+		"id" : 3,
+		"soal" : "Banyaknya ayunan tiap waktu dideﬁnisikan sebagai . . .",
+		"a" : "frekuensi",
+		"b" : "amplitudo",
+        "c" : "volume",
+        "d" : "gravitasi",
+        "e" : "periode",
+        "jawaban" : "A" 
+	},
+    {
+		"id" : 4,
+		"soal" : "Waktu yang dibutuhkan ayunan untuk melakukan satu ayunan dinamakan . . .",
+		"a" : "frekuensi",
+		"b" : "amplitudo",
+        "c" : "volume",
+        "d" : "gravitasi",
+        "e" : "periode",
+        "jawaban" : "E"
+	},
+    {
 		"id" : 5,
-		"soal" : "Sebuah partikel bermassa $m =$ 0,2 $kg$ berada pada ujung pegas sehingga bergerak harmonis sederhana. Posisi partikel sebagai fungsi waktu diberikan oleh persamaan $x(t) =$ A $sin$ $(𝛚t)$ dengan $A =$ 0,25 $m$ dan $𝛚 =$ 0,1 $rad/s$. Tentukan energi total partikel tersebut?",
-		"a" : "3,25 x 10 $_{-3} Joule$",
-		"b" : "4,25 x 10 $_{-3} Joule$",
-        "c" : "5,25 x 10 $_{-3} Joule$",
-        "d" : "6,25 x 10 $_{-3} Joule$",
-        "e" : "7,25 x 10 $_{-3} Joule$",
+		"soal" : "Besarnya preiode suatu ayunan bandul sederhana tergantung pada . . .",
+		"a" : "Pada panjang tali pada bandul & percepatan gravitasi pada bandul yang  di ayunkan",
+		"b" : "Pada pendek tali pada bandul & kosntanta pada bandul yang di ayunkan",
+        "c" : "Pada pendek tali pada bandul & volume pada bandul yang di ayunkan",
+        "d" : "Pada panjang tali pada bandul & masa benda pada bandul yang di ayunkan",
+        "e" : "Pada panjang tali pada bandul & frekuensi pada bandul yang di ayunkan",
+        "jawaban" : "A"
+	},
+    {
+		"id" : 6,
+		"soal" : "Besarnya frekunsi suatu ayunan bandul sederhana tergantung pada . . .",
+		"a" : "jumlah getaran, jumlah priode, percepatan gravitasi",
+		"b" : "jumlah getaran, masa benda, percepatan gravitasi",
+        "c" : "percepatan gravitasi, konstanta, panjang tali bandul",
+        "d" : "panjang tali bandul, jumlah getaran, percepatan gravitasi",
+        "e" : "panjang tali bandul, jumlah berat bandul, percepatan gravitasi",
+        "jawaban" : "D"
+	},
+    {
+		"id" : 7,
+		"soal" : "Rumus mencari frekunsi pada ayunan bandul adalah . . .",
+		"a" : "$f =$ $\\frac{n}{w}$",
+		"b" : "$f =$ $\\frac{n}{t}$",
+        "c" : "$f =$ $\\frac{n}{m}$",
+        "d" : "$f =$ $\\frac{m}{t}$",
+        "e" : "$f =$ $\\frac{n}{k}$",
+        "jawaban" : "B"
+	},
+    {
+		"id" : 8,
+		"soal" : "Rumus mecari periode ayunan bandul adalah . . .",
+		"a" : "$T =$ $\\frac{t}{w}$",
+		"b" : "$T =$ $\\frac{t}{T}$",
+        "c" : "$T =$ $\\frac{t}{n}$",
+        "d" : "$T =$ $\\frac{t}{m}$",
+        "e" : "$T =$ $\\frac{t}{k}$",
+        "jawaban" : "C"
+	},
+    {
+		"id" : 9,
+		"soal" : "Sebuah bandul digetarkan selama 1 menit sehingga menghasilkan 40 getaran. Periode bandul tersebut adalah . . .",
+		"a" : "1,5",
+		"b" : "0,33",
+        "c" : "0,25",
+        "d" : "0,15",
+        "e" : "1.35",
+        "jawaban" : "A"
+	},
+    {
+		"id" : 10,
+		"soal" : "Sebuah bandul sederhana bergetar selama 50 kali dalam waktu 5 detik. Frekuensi getaran bandul tersebut adalah . . .",
+		"a" : "$5 Hz$",
+		"b" : "$10 Hz$",
+        "c" : "$25 Hz$",
+        "d" : "$50 Hz$",
+        "e" : "$75 Hz$",
         "jawaban" : "B"
 	}
 ]
