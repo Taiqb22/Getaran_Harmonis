@@ -35,12 +35,6 @@
                     <div class="nav">
                         <div class="sb-sidenav-menu-heading">Daftar Isi</div>
 
-                        <!-- Peta Konsep -->
-                        <a class="nav-link" href="index.html">
-                            <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
-                            Pengantar
-                        </a>
-
                         <!-- Materi 1 -->
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
                             data-bs-target="#collapseMateri1" aria-expanded="false" aria-controls="collapseMateri1">
@@ -72,32 +66,33 @@
                         <div class="collapse show" id="collapseMateri2" aria-labelledby="headingOne"
                             data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="pengantar2.html"><i
+                                <a class="nav-link" onclick="pengantar2()"><i
                                         class="fas fa-book-open me-1"></i>Pengantar</a>
-                                <a class="nav-link" href="materi21.html"><i class="fas fa-book-open me-1"></i>Simpangan
+                                <a class="nav-link" onclick="materi21()"><i class="fas fa-book-open me-1"></i>Simpangan
                                     pada GHS</a>
-                                <a class="nav-link" href="materi22.html"><i class="fas fa-book-open me-1"></i>Kecepatan
+                                <a class="nav-link" onclick="materi22()"><i class="fas fa-book-open me-1"></i>Kecepatan
                                     pada GHS</a>
-                                <a class="nav-link" href="materi23.html"><i class="fas fa-book-open me-1"></i>Percepatan
+                                <a class="nav-link" onclick="materi23()"><i class="fas fa-book-open me-1"></i>Percepatan
                                     Pada GHS</a>
-                                <a class="nav-link" href="materi24.html"><i class="fas fa-book-open me-1"></i>Periode
+                                <a class="nav-link" onclick="materi24()"><i class="fas fa-book-open me-1"></i>Periode
                                     dan frekuensi GHS</a>
-                                <a class="nav-link" href="materi25.html"><i class="fas fa-book-open me-1"></i>Hukum
+                                <a class="nav-link" onclick="materi25()"><i class="fas fa-book-open me-1"></i>Hukum
                                     kekekalan Energi GHS</a>
-                                <a class="nav-link active"><i class="fas fa-book-open me-1"></i>Aktivitas Siswa</a>
-                                <a class="nav-link" href="latihan2.html"><i
+                                <a class="nav-link active"><i class="fas fa-book-open-reader me-1"></i>Aktivitas
+                                    Siswa</a>
+                                <a class="nav-link" onclick="latihan2()"><i
                                         class="fas fa-list-check me-1"></i>Latihan</a>
                             </nav>
                         </div>
 
                         <!-- Rangkuman -->
-                        <a class="nav-link" href="rangkuman.html">
+                        <a class="nav-link" onclick="rangkuman()">
                             <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
                             Rangkuman
                         </a>
 
                         <!-- Evaluasi -->
-                        <a class="nav-link" href="evaluasi.html">
+                        <a class="nav-link" onclick="evaluasi()">
                             <div class="sb-nav-link-icon"><i class="fas fa-list-check"></i></div>
                             Evaluasi
                         </a>
@@ -142,7 +137,8 @@
                                                 </span>
                                             </div>
                                             <div class="bordU2">
-                                                statif, tali, beban pegas, alat pengukur(pengaris),busur derajat dan stopwatch
+                                                statif, tali, beban pegas, alat pengukur(pengaris),busur derajat dan
+                                                stopwatch
                                             </div>
                                             <div class="mt-3">
                                                 <span class="bord3">
@@ -158,10 +154,12 @@
                                                         Beban yang di gunakan bermasa 0,05 Kg, 0,08Kg dan 0,1 Kg
                                                     </li>
                                                     <li>
-                                                        Pegas digantung beban tunggal, kemudian tarik sedikit sekitar 2 cm terhadap Panjang awal.
+                                                        Pegas digantung beban tunggal, kemudian tarik sedikit sekitar 2
+                                                        cm terhadap Panjang awal.
                                                     </li>
                                                     <li>
-                                                        Lepaskan beban tersebut dan biarkan berayun sebanyak 10 kali bolak balik. Catat waktunya.
+                                                        Lepaskan beban tersebut dan biarkan berayun sebanyak 10 kali
+                                                        bolak balik. Catat waktunya.
                                                     </li>
                                                     <li>
                                                         Masukan data di peroleh ke dalam table pengamatan.
@@ -266,7 +264,6 @@
                                         </table>
                                         <a onclick="cekjawabant2()" class="badge bg-primary "
                                             style="font-size: 18px; cursor: pointer;">Cek Jawaban</a>
-
                                     </div>
                                     <div id="empat">
                                         <div class="dlm mt-2">
@@ -300,7 +297,7 @@
                                                 style="cursor: pointer;">Selanjutnya</a>
                                         </li>
                                         <li class="page-item" id="btnnext">
-                                            <a class="page-link bg-success text-white ml-1" id="mnext"
+                                            <a class="page-link bg-success text-white ml-1" id="mlanjut"
                                                 href="latihan2.html" hidden>Materi Selanjutnya</a>
                                         </li>
                                     </ul>
@@ -348,6 +345,8 @@
     </div>
 
     <!-- Script JS -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.easing.min.js"></script>
     <script src="../assets/js/Chart.min.js" crossorigin="anonymous"></script>
     <script src="../assets/demo/chart-area-demo.js"></script>
     <script src="../assets/demo/chart-bar-demo.js"></script>
@@ -355,8 +354,13 @@
     <script src="../assets/js/datatables-simple-demo.js"></script>
     <script src="../assets/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 
+    <!-- DB JS -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+
     <script src="../assets/js/scripts.js"></script>
     <script src="../assets/js/cscript.js"></script>
+    <script src="../assets/js/tutorial.js"></script>
 </body>
 
 </html>

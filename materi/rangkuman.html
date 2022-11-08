@@ -26,18 +26,7 @@
             <div class="input-group">
             </div>
         </form>
-        <!-- Navbar-->
-        <!-- <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
-                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#!">Dashboard</a></li>
-                        <li><a class="dropdown-item" href="#!">Settings</a></li>
-                        <li><hr class="dropdown-divider" /></li>
-                        <li><a class="dropdown-item" href="#!">Logout</a></li>
-                    </ul>
-                </li>
-            </ul> -->
+
     </nav>
     <div id="layoutSidenav">
         <div id="layoutSidenav_nav">
@@ -45,12 +34,6 @@
                 <div class="sb-sidenav-menu">
                     <div class="nav">
                         <div class="sb-sidenav-menu-heading">Daftar Isi</div>
-
-                        <!-- Peta Konsep -->
-                        <a class="nav-link" href="index.html">
-                            <div class="sb-nav-link-icon"><i class="fas fa-book-open-reader"></i></div>
-                            Pengantar
-                        </a>
 
                         <!-- Materi 1 -->
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
@@ -82,33 +65,33 @@
                         <div class="collapse" id="collapseMateri2" aria-labelledby="headingOne"
                             data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="pengantar2.html"><i
+                                <a class="nav-link" onclick="pengantar2()"><i
                                         class="fas fa-book-open me-1"></i>Pengantar</a>
-                                <a class="nav-link" href="materi21.html"><i class="fas fa-book-open me-1"></i>Simpangan
+                                <a class="nav-link" onclick="materi21()"><i class="fas fa-book-open me-1"></i>Simpangan
                                     pada GHS</a>
-                                <a class="nav-link" href="materi22.html"><i class="fas fa-book-open me-1"></i>Kecepatan
+                                <a class="nav-link" onclick="materi22()"><i class="fas fa-book-open me-1"></i>Kecepatan
                                     pada GHS</a>
-                                <a class="nav-link" href="materi23.html"><i class="fas fa-book-open me-1"></i>Percepatan
+                                <a class="nav-link" onclick="materi23()"><i class="fas fa-book-open me-1"></i>Percepatan
                                     Pada GHS</a>
-                                <a class="nav-link" href="materi24.html"><i class="fas fa-book-open me-1"></i>Periode
+                                <a class="nav-link" onclick="materi24()"><i class="fas fa-book-open me-1"></i>Periode
                                     dan frekuensi GHS</a>
-                                <a class="nav-link" href="materi25.html"><i class="fas fa-book-open me-1"></i>Hukum
+                                <a class="nav-link" onclick="materi25()"><i class="fas fa-book-open me-1"></i>Hukum
                                     kekekalan Energi GHS</a>
-                                <a class="nav-link" href="materi26.html"><i class="fas fa-book-open me-1"></i>Aktivitas
+                                <a class="nav-link" onclick="materi26()"><i class="fas fa-book-open me-1"></i>Aktivitas
                                     Siswa</a>
-                                <a class="nav-link" href="latihan2.html"><i
+                                <a class="nav-link" onclick="latihan2()"><i
                                         class="fas fa-list-check me-1"></i>Latihan</a>
                             </nav>
                         </div>
 
                         <!-- Rangkuman -->
-                        <a class="nav-link active">
+                        <a class="nav-link" onclick="rangkuman()">
                             <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
                             Rangkuman
                         </a>
 
                         <!-- Evaluasi -->
-                        <a class="nav-link" href="evaluasi.html">
+                        <a class="nav-link" onclick="evaluasi()">
                             <div class="sb-nav-link-icon"><i class="fas fa-list-check"></i></div>
                             Evaluasi
                         </a>
@@ -188,6 +171,8 @@
     </div>
 
     <!-- Script JS -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.easing.min.js"></script>
     <script src="../assets/js/Chart.min.js" crossorigin="anonymous"></script>
     <script src="../assets/demo/chart-area-demo.js"></script>
     <script src="../assets/demo/chart-bar-demo.js"></script>
@@ -195,8 +180,13 @@
     <script src="../assets/js/datatables-simple-demo.js"></script>
     <script src="../assets/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 
+    <!-- DB JS -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+
     <script src="../assets/js/scripts.js"></script>
     <script src="../assets/js/cscript.js"></script>
+    <script src="../assets/js/tutorial.js"></script>
 </body>
 
 </html>
