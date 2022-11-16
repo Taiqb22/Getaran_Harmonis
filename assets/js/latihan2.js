@@ -1,5 +1,9 @@
+const db = firebase.database();
+const dbkkm = db.ref('db_kkm/').on('value', kkmSuccess, handleError)
 const dbtoken = db.ref('db_token/').on('value', tokenSuccess, handleError)
 
+let loop1;
+let kkm1 = 0;
 let tokenNew = 0;
 
 function kkmSuccess(items1) {

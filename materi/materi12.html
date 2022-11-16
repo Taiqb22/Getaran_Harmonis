@@ -50,7 +50,8 @@
                                 <a class="nav-link" href="materi1.html"><i class="fas fa-book-open me-1"></i>Materi</a>
                                 <a class="nav-link active"><i class="fas fa-book-open-reader me-1"></i>Aktivitas
                                     Siswa</a>
-                                <a class="nav-link" href="latihan1.html"><i class="fas fa-list-check me-1"></i>Kuis</a>
+                                <a class="nav-link" href="latihan1.html"><i
+                                        class="fas fa-list-check me-1"></i>Latihan</a>
                             </nav>
                         </div>
 
@@ -60,38 +61,6 @@
                             <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
                             Persamaan Umum Gerak Harmonik Sederhana
                             <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                        </a>
-                        <div class="collapse" id="collapseMateri2" aria-labelledby="headingOne"
-                            data-bs-parent="#sidenavAccordion">
-                            <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" onclick="pengantar2()"><i
-                                        class="fas fa-book-open me-1"></i>Pengantar</a>
-                                <a class="nav-link" onclick="materi21()"><i class="fas fa-book-open me-1"></i>Simpangan
-                                    pada GHS</a>
-                                <a class="nav-link" onclick="materi22()"><i class="fas fa-book-open me-1"></i>Kecepatan
-                                    pada GHS</a>
-                                <a class="nav-link" onclick="materi23()"><i class="fas fa-book-open me-1"></i>Percepatan
-                                    Pada GHS</a>
-                                <a class="nav-link" onclick="materi24()"><i class="fas fa-book-open me-1"></i>Periode
-                                    dan frekuensi GHS</a>
-                                <a class="nav-link" onclick="materi25()"><i class="fas fa-book-open me-1"></i>Hukum
-                                    kekekalan Energi GHS</a>
-                                <a class="nav-link" onclick="materi26()"><i class="fas fa-book-open me-1"></i>Aktivitas
-                                    Siswa</a>
-                                <a class="nav-link" onclick="latihan2()"><i class="fas fa-list-check me-1"></i>Kuis</a>
-                            </nav>
-                        </div>
-
-                        <!-- Rangkuman -->
-                        <a class="nav-link" onclick="rangkuman()">
-                            <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
-                            Rangkuman
-                        </a>
-
-                        <!-- Evaluasi -->
-                        <a class="nav-link" onclick="evaluasi()">
-                            <div class="sb-nav-link-icon"><i class="fas fa-list-check"></i></div>
-                            Evaluasi
                         </a>
 
                     </div>
@@ -226,9 +195,9 @@
                                                 <tr class="text-center">
                                                     <th scope="col">No</th>
                                                     <th scope="col">Panjang Tali</th>
-                                                    <th scope="col">Waktu 10 Ayunan      (detik)</th>
-                                                    <th scope="col">Periode($T$)         (detik)</th>
-                                                    <th scope="col">Frekuensi($f$)       ($Hz$)</th>
+                                                    <th scope="col">Waktu 10 Ayunan(detik)</th>
+                                                    <th scope="col">Periode($T$)(detik)</th>
+                                                    <th scope="col">Frekuensi($f$)($Hz$)</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -281,7 +250,7 @@
                                     <ul class="pagination justify-content-center mt-1 mb-1"
                                         style="margin-bottom: 0rem;">
                                         <li class="page-item disabled" id="btnprev">
-                                            <a class="kembali" id="prev" onclick="" tabindex="-1" aria-disabled="true"
+                                            <a class="page-link" id="prev" onclick="" tabindex="-1" aria-disabled="true"
                                                 style="cursor: pointer;">Sebelumnya</a>
                                         </li>
                                         <li class="page-item active" id="btnsatu"><a class="page-link"
@@ -291,12 +260,12 @@
                                         <li class="page-item" id="btntiga"><a class="page-link" onclick="tiga3();"
                                                 style="cursor: pointer;">3</a></li>
                                         <li class="page-item" id="btnnext">
-                                            <a id="next" class="lanjut" onclick="dua3();"
+                                            <a id="next" class="page-link" onclick="dua3();"
                                                 style="cursor: pointer;">Selanjutnya</a>
                                         </li>
                                         <li class="page-item" id="btnnext">
-                                            <a class="lanjut" id="mlanjut" href="latihan1.html" hidden>Materi
-                                                Selanjutnya</a>
+                                            <a class="page-link bg-success text-white ml-1" id="mlanjut"
+                                                href="latihan1.html" hidden>Materi Selanjutnya</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -345,14 +314,13 @@
             </div>
         </div>
     </div>
+
     <!-- Script JS -->
-    <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/js/jquery.easing.min.js"></script>
     <script src="../assets/js/Chart.min.js" crossorigin="anonymous"></script>
     <script src="../assets/demo/chart-area-demo.js"></script>
     <script src="../assets/demo/chart-bar-demo.js"></script>
     <script src="../assets/js/simple-datatables.js" crossorigin="anonymous"></script>
-    <script src="../assets/js/datatables-simple-demo.js.<"></script>
+    <script src="../assets/js/datatables-simple-demo.js"></script>
     <script src="../assets/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 
     <!-- DB JS -->
@@ -361,7 +329,6 @@
 
     <script src="../assets/js/scripts.js"></script>
     <script src="../assets/js/cscript.js"></script>
-    <script src="../assets/js/db.js"></script>
     <script src="../assets/js/tutorial.js"></script>
 </body>
 

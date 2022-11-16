@@ -19,7 +19,6 @@ window.MathJax = {
 function satu2() {
     document.getElementById("btnprev").classList.add('disabled');
     document.getElementById("btnnext").classList.remove('disabled');
-    document.getElementById("btnnext").hidden = false;
     document.getElementById("satu").hidden = false;
     document.getElementById("btnsatu").classList.add('active');
     document.getElementById("dua").hidden = true;
@@ -30,7 +29,6 @@ function satu2() {
 function dua2() {
     document.getElementById("btnprev").classList.remove('disabled');
     document.getElementById("btnnext").classList.add('disabled');
-    document.getElementById("btnnext").hidden = true;
     document.getElementById("satu").hidden = true;
     document.getElementById("btnsatu").classList.remove('active');
     document.getElementById("dua").hidden = false;
@@ -43,7 +41,6 @@ function dua2() {
 function satu3() {
     document.getElementById("btnprev").classList.add('disabled');
     document.getElementById("btnnext").classList.remove('disabled');
-    document.getElementById("btnnext").hidden = false;
     document.getElementById("satu").hidden = false;
     document.getElementById("btnsatu").classList.add('active');
     document.getElementById("dua").hidden = true;
@@ -56,7 +53,6 @@ function satu3() {
 function dua3() {
     document.getElementById("btnprev").classList.remove('disabled');
     document.getElementById("btnnext").classList.remove('disabled');
-    document.getElementById("btnnext").hidden = false;
     document.getElementById("satu").hidden = true;
     document.getElementById("btnsatu").classList.remove('active');
     document.getElementById("dua").hidden = false;
@@ -78,14 +74,12 @@ function tiga3() {
     document.getElementById("btntiga").classList.add('active');
     document.getElementById("prev").setAttribute("onClick", "javascript: dua3();");
     document.getElementById("mlanjut").hidden = false;
-    document.getElementById("btnnext").hidden = true;
 }
 
 // kontrol 4 halaman 
 function satu4() {
     document.getElementById("btnprev").classList.add('disabled');
     document.getElementById("btnnext").classList.remove('disabled');
-    document.getElementById("btnnext").hidden = false;
     document.getElementById("satu").hidden = false;
     document.getElementById("btnsatu").classList.add('active');
     document.getElementById("dua").hidden = true;
@@ -100,7 +94,6 @@ function satu4() {
 function dua4() {
     document.getElementById("btnprev").classList.remove('disabled');
     document.getElementById("btnnext").classList.remove('disabled');
-    document.getElementById("btnnext").hidden = false;
     document.getElementById("satu").hidden = true;
     document.getElementById("btnsatu").classList.remove('active');
     document.getElementById("dua").hidden = false;
@@ -116,7 +109,6 @@ function dua4() {
 function tiga4() {
     document.getElementById("btnprev").classList.remove('disabled');
     document.getElementById("btnnext").classList.remove('disabled');
-    document.getElementById("btnnext").hidden = false;
     document.getElementById("satu").hidden = true;
     document.getElementById("btnsatu").classList.remove('active');
     document.getElementById("dua").hidden = true;
@@ -132,7 +124,6 @@ function tiga4() {
 function empat4() {
     document.getElementById("btnprev").classList.remove('disabled');
     document.getElementById("btnnext").classList.add('disabled');
-    document.getElementById("btnnext").hidden = true;
     document.getElementById("satu").hidden = true;
     document.getElementById("btnsatu").classList.remove('active');
     document.getElementById("dua").hidden = true;
@@ -149,7 +140,6 @@ function empat4() {
 function satu() {
     document.getElementById("btnprev").classList.add('disabled');
     document.getElementById("btnnext").classList.remove('disabled');
-    document.getElementById("btnnext").hidden = false;
     document.getElementById("satu").hidden = false;
     document.getElementById("btnsatu").classList.add('active');
     document.getElementById("dua").hidden = true;
@@ -166,7 +156,6 @@ function satu() {
 function dua() {
     document.getElementById("btnprev").classList.remove('disabled');
     document.getElementById("btnnext").classList.remove('disabled');
-    document.getElementById("btnnext").hidden = false;
     document.getElementById("satu").hidden = true;
     document.getElementById("btnsatu").classList.remove('active');
     document.getElementById("dua").hidden = false;
@@ -184,7 +173,6 @@ function dua() {
 function tiga() {
     document.getElementById("btnprev").classList.remove('disabled');
     document.getElementById("btnnext").classList.remove('disabled');
-    document.getElementById("btnnext").hidden = false;
     document.getElementById("satu").hidden = true;
     document.getElementById("btnsatu").classList.remove('active');
     document.getElementById("dua").hidden = true;
@@ -202,7 +190,6 @@ function tiga() {
 function empat() {
     document.getElementById("btnprev").classList.remove('disabled');
     document.getElementById("btnnext").classList.remove('disabled');
-    document.getElementById("btnnext").hidden = false;
     document.getElementById("satu").hidden = true;
     document.getElementById("btnsatu").classList.remove('active');
     document.getElementById("dua").hidden = true;
@@ -219,7 +206,6 @@ function empat() {
 
 function lima() {
     document.getElementById("btnprev").classList.remove('disabled');
-    document.getElementById("btnnext").hidden = true;
     document.getElementById("satu").hidden = true;
     document.getElementById("btnsatu").classList.remove('active');
     document.getElementById("dua").hidden = true;

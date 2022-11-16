@@ -51,7 +51,8 @@
                                         class="fas fa-book-open-reader me-1"></i>Materi</a>
                                 <a class="nav-link" href="materi12.html"><i class="fas fa-book-open me-1"></i>Aktivitas
                                     Siswa</a>
-                                <a class="nav-link" href="latihan1.html"><i class="fas fa-list-check me-1"></i>Kuis</a>
+                                <a class="nav-link" href="latihan1.html"><i
+                                        class="fas fa-list-check me-1"></i>Latihan</a>
                             </nav>
                         </div>
 
@@ -79,7 +80,8 @@
                                     kekekalan Energi GHS</a>
                                 <a class="nav-link" onclick="materi26()"><i class="fas fa-book-open me-1"></i>Aktivitas
                                     Siswa</a>
-                                <a class="nav-link" onclick="latihan2()"><i class="fas fa-list-check me-1"></i>Kuis</a>
+                                <a class="nav-link" onclick="latihan2()"><i
+                                        class="fas fa-list-check me-1"></i>Latihan</a>
                             </nav>
                         </div>
 
@@ -120,47 +122,44 @@
                                         <ul>
                                             <li>
                                                 Energi yang dimiliki benda saat bergerak adalah energi kinetik
-                                                <div class ="h3 text-center" >
-                                                    <span class="bg-dark" style="color:white;">$Ek = \frac{1}{2}.m.v^2 = \frac{1}{2}.m.A^2.\omega^2.cos^2.\omega
-                                                    .t$</span>
-                                                </div>
+                                                <center>
+                                                    $Ek = \frac{1}{2}.m.v^2 = \frac{1}{2}.m.A^2.\omega^2.cos^2.\omega
+                                                    .t$
                                                 </center>
                                             </li>
                                             <li>
                                                 Energi yang dimiliki benda pada saat jangkauan terjauh memiliki energi
                                                 potensial
-                                                <div class ="h3 text-center" >
-                                                    <span class="bg-dark" style="color:white;">$Ep = \frac{1}{2} .k.y^2$ <br>
-                                                    $EP = \frac{1}{2} .k.A.\omega.Sin^2.\omega.t$<div class ="h3 text-center" >
-                                                        <span class="bg-dark" style="color:white;">
+                                                <center>
+                                                    $Ep = \frac{1}{2} .k.y^2$ <br>
+                                                    $EP = \frac{1}{2} .k.A.\omega.Sin^2.\omega.t$
+                                                </center>
                                                 Karena, $k = m.\omega^2$ <br>
-                                                Maka, <div class ="h3 text-center" >
-                                                    <span class="bg-dark" style="color:white;">$Ep = \frac{1}{2}.m.\omega^2.A^2.sin^2.\omega.t$</span>
-                                                </div>
+                                                Maka, $Ep = \frac{1}{2}.m.\omega^2.A^2.sin^2.\omega.t$
                                             </li>
                                             <li>
                                                 Pada gerak harmonik sederhana tidak energi yang hilang, maka berlaku
                                                 hukum kekekalan energi mekanik, dimana energi mekanik merupakan
                                                 penjumlahan energi kinetik dan energi potensial.
-                                                <div class ="h3 text-center" >
-                                                    <span class="bg-dark" style="color:white;">$Em = Ep + Ek$ <br>
+                                                <center>
+                                                    $Em = Ep + Ek$ <br>
                                                     $Em = \frac{1}{2}.m.A^2.\omega^2.cos^2.\omega.t +
-                                                    \frac{1}{2}.m.\omega^2.A^2.sin^2.\omega.t$</span>
-                                                </div>
+                                                    \frac{1}{2}.m.\omega^2.A^2.sin^2.\omega.t$
+                                                </center>
                                             </li>
                                         </ul>
                                         <div class="dlm mt-2">
                                             Berdasarkan persamaan identitas trigonometri bahwa
                                         </div>
-                                        <div class ="h3 text-center" >
-                                            <span class="bg-dark" style="color:white;">$cos^2.\omega.t + sin^2.\omega.t = 1$</span>
-                                        </div>
+                                        <center>
+                                            $cos^2.\omega.t + sin^2.\omega.t = 1$
+                                        </center>
                                         <div class="dlm mt-2">
                                             Didapatkan bahwa energi mekanik pada gerak harmonik sederhana adalah:
                                         </div>
-                                        <div class ="h3 text-center" >
-                                            <span class="bg-dark" style="color:white;">$Em = \frac{1}{2}.m.A^2.\omega^2$ dengan $k = m.\omega^2$</span>
-                                        </div>
+                                        <center>
+                                            $Em = \frac{1}{2}.m.A^2.\omega^2$ dengan $k = m.\omega^2$
+                                        </center>
                                         <div class="dlm mt-2">
                                             Maka, $Em = \frac{1}{2}.k.A^2$
                                         </div>
@@ -197,7 +196,7 @@
                                     <ul class="pagination justify-content-center mt-1 mb-1"
                                         style="margin-bottom: 0rem;">
                                         <li class="page-item disabled" id="btnprev">
-                                            <a class="kembali" id="prev" onclick="" tabindex="-1" aria-disabled="true"
+                                            <a class="page-link" id="prev" onclick="" tabindex="-1" aria-disabled="true"
                                                 style="cursor: pointer;">Sebelumnya</a>
                                         </li>
                                         <li class="page-item active" id="btnsatu"><a class="page-link"
@@ -205,12 +204,12 @@
                                         <li class="page-item" id="btndua"><a class="page-link" onclick="dua2();"
                                                 style="cursor: pointer;">2</a></li>
                                         <li class="page-item" id="btnnext">
-                                            <a id="next" class="lanjut" onclick="dua2();"
+                                            <a id="next" class="page-link" onclick="dua2();"
                                                 style="cursor: pointer;">Selanjutnya</a>
                                         </li>
                                         <li class="page-item" id="btnnext">
-                                            <a class="lanjut" id="mlanjut" href="materi26.html" hidden>Materi
-                                                Selanjutnya</a>
+                                            <a class="page-link bg-success text-white ml-1" id="mlanjut"
+                                                href="materi26.html" hidden>Materi Selanjutnya</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -223,6 +222,7 @@
             </main>
         </div>
     </div>
+
     <!-- Script JS -->
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/js/jquery.easing.min.js"></script>
@@ -239,7 +239,6 @@
 
     <script src="../assets/js/scripts.js"></script>
     <script src="../assets/js/cscript.js"></script>
-    <script src="../assets/js/db.js"></script>
     <script src="../assets/js/tutorial.js"></script>
 </body>
 
