@@ -51,8 +51,7 @@
                                         class="fas fa-book-open-reader me-1"></i>Materi</a>
                                 <a class="nav-link" href="materi12.html"><i class="fas fa-book-open me-1"></i>Aktivitas
                                     Siswa</a>
-                                <a class="nav-link" href="latihan1.html"><i
-                                        class="fas fa-list-check me-1"></i>Latihan</a>
+                                <a class="nav-link" href="latihan1.html"><i class="fas fa-list-check me-1"></i>Kuis</a>
                             </nav>
                         </div>
 
@@ -80,8 +79,7 @@
                                     kekekalan Energi GHS</a>
                                 <a class="nav-link active"><i class="fas fa-book-open-reader me-1"></i>Aktivitas
                                     Siswa</a>
-                                <a class="nav-link" onclick="latihan2()"><i
-                                        class="fas fa-list-check me-1"></i>Latihan</a>
+                                <a class="nav-link" onclick="latihan2()"><i class="fas fa-list-check me-1"></i>Kuis</a>
                             </nav>
                         </div>
 
@@ -264,6 +262,7 @@
                                         </table>
                                         <a onclick="cekjawabant2()" class="badge bg-primary "
                                             style="font-size: 18px; cursor: pointer;">Cek Jawaban</a>
+
                                     </div>
                                     <div id="empat">
                                         <div class="dlm mt-2">
@@ -281,7 +280,7 @@
                                     <ul class="pagination justify-content-center mt-1 mb-1"
                                         style="margin-bottom: 0rem;">
                                         <li class="page-item disabled" id="btnprev">
-                                            <a class="page-link" id="prev" onclick="" tabindex="-1" aria-disabled="true"
+                                            <a class="kembali" id="prev" onclick="" tabindex="-1" aria-disabled="true"
                                                 style="cursor: pointer;">Sebelumnya</a>
                                         </li>
                                         <li class="page-item active" id="btnsatu"><a class="page-link"
@@ -293,12 +292,12 @@
                                         <li class="page-item" id="btnempat"><a class="page-link" onclick="empat4();"
                                                 style="cursor: pointer;">4</a></li>
                                         <li class="page-item" id="btnnext">
-                                            <a id="next" class="page-link" onclick="dua4();"
+                                            <a id="next" class="lanjut" onclick="dua4();"
                                                 style="cursor: pointer;">Selanjutnya</a>
                                         </li>
                                         <li class="page-item" id="btnnext">
-                                            <a class="page-link bg-success text-white ml-1" id="mlanjut"
-                                                href="latihan2.html" hidden>Materi Selanjutnya</a>
+                                            <a class="lanjut" id="mlanjut" href="latihan2.html" hidden>Materi
+                                                Selanjutnya</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -344,6 +343,25 @@
         </div>
     </div>
 
+    <!-- Modal Terkunci -->
+    <div class="modal fade" id="tutorialModal" tabindex="-1" role="dialog" aria-labelledby="tutorialModalTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-danger">
+                    <h5 class="modal-title text-white" id="tutorialModalTitle">Konfirmasi</h5>
+                </div>
+                <div class="modal-body" style="color: black;">
+                    Maaf, Kamu belum bisa membuka <span id="isiTutor"></span> ini! <br>
+                    Silahkan pelajari terlebih dahulu <b>materi sebelumnya</b>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Script JS -->
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/js/jquery.easing.min.js"></script>
@@ -360,6 +378,7 @@
 
     <script src="../assets/js/scripts.js"></script>
     <script src="../assets/js/cscript.js"></script>
+    <script src="../assets/js/db.js"></script>
     <script src="../assets/js/tutorial.js"></script>
 </body>
 
