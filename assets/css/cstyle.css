@@ -7,7 +7,7 @@
 
 
 .lanjut {
-	background-image: linear-gradient(to right, #1D976C 100%, #93F9B9 0%, #1D976C 100%);
+	background-image: linear-gradient(to right, #1D976C 0%, #93F9B9 51%, #1D976C 100%);
 	padding: 5px;
 	margin: 2px;
 	text-align: center;
@@ -27,7 +27,7 @@
 
 
 .kembali {
-	background-image: linear-gradient(to right, red 100%, #FFEDBC 0%, red 100%);
+	background-image: linear-gradient(to right, red 0%, #FFEDBC 51%, red 100%);
 	margin: 2px;
 	padding: 5px;
 	text-align: center;
